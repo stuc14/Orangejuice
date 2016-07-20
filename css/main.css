@@ -1,0 +1,141 @@
+html,body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+nav {
+	background-color: #f97d1b;
+	height: 10%;
+	text-decoration: none;
+	padding: 10px 25px;
+	color: white;
+	font-family: 'times new roman';
+
+
+}
+
+header {
+	display: inline-block;
+	font-family: 'times new roman';
+	padding-left: 5%;
+}
+
+header h1 {
+	width: 80%;
+    margin: 10px 0;
+    color: white;
+    font-size: 34px;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    font-weight: lighter;
+}
+
+header span {
+	font-weight: bold;
+}
+
+
+nav ul {
+	float: right;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	font-size: 17px;
+
+}
+
+nav li {
+	display: inline-block;
+	padding: 0 5px;
+
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+form {
+	padding-top: 1%;
+	margin-top: 10px;
+	background-color: #F0F0F0;
+	float: right;
+	margin-right: 3px;
+
+}
+
+form input {
+		height: 25px;
+		padding-left: 10px;
+		border:none;
+		background-color: transparent;
+		color: gray;
+
+}
+
+form i {
+	padding-right: 10px;
+	color: gray;
+}
+
+section {
+	height: 80%;
+	background-color: #f7f7f7;
+}
+
+section div.image {
+	display: inline-block;
+	width: 330px;
+	text-align: center;
+	height: 274px;
+	margin-top: 130px;
+	margin-left: 45px;
+	position: relative;
+	top: 25px;
+
+}
+
+section div  {
+	display: inline-block; 
+	width: 55%;
+	height: 275px;
+}
+
+section div h1 {
+	text-align: center;
+	color: #DFCFC5;
+	font-weight: lighter;
+	font-size: 40px;
+	font-style: normal;
+}
+
+section span {
+	color: #79ccc8;
+	font-weight: bold;
+}
+
+section span:first-child {
+	color: #FE7000;
+}
+
+button {
+	padding: 20px 50px;
+	background-color:#FE7000;
+	color: white;
+	margin-left: 20%;
+	font-weight: bold;
+	font-size: 14px;
+
+}
+
+button:last-child {
+	background-color: #79ccc8;
+	margin-left: 10px;
+	margin-right: 18%;
+}
+ 
+footer {
+	background-color: #79ccc8;
+	height: 10%;
+}
